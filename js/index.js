@@ -78,10 +78,6 @@ $(function() {
 
     });
 
-    $('#div-slider').hide();
-
-
-
     $('ul.menu .menu-1').on('click', function() {
         swiper.slideTo(3);
     });
@@ -102,7 +98,15 @@ $(function() {
         swiper.slideTo(8);
     });
 
+
+
+
+    $('#div-slider').hide();
+
+
+
+
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    $('#div-start').hide();
-    $('#div-slider').show();
+    //$('#div-start').hide();
+    //$('#div-slider').show();
 });
