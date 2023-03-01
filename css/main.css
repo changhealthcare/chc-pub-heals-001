@@ -185,4 +185,8 @@ footer.main-footer ul.menu > li button.on img.on {
     display: block;
 }
 
+main.swiper-container {
+    margin-bottom: 100px;
+}
+
 
