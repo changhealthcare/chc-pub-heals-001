@@ -10,3 +10,6 @@ chc-pub-heals-001
 - D:\2022_WebSite\marketing.ichc.co.kr\HeALS
 - 마케팅 url : https://marketing.ichc.co.kr/HeALS/marketing/service/
 
+
+- 비로그인시: https://marketing.ichc.co.kr/HeALS/guest/info/
+- 
