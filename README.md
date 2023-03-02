@@ -9,3 +9,4 @@ chc-pub-heals-001
 - FTP : 27.255.70.229:5001 / webadminftp / chang20171234!@#$
 - D:\2022_WebSite\marketing.ichc.co.kr\HeALS
 - 마케팅 url : https://marketing.ichc.co.kr/HeALS/marketing/service/
+
