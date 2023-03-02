@@ -52,6 +52,23 @@ button {
     width: 100%;
 }
 
+.main-div .start-close-button {
+    border: solid 1px red;
+    position:fixed;
+    right: 5%;
+    bottom: 5%;
+}
+.main-div .start-close-button {
+    border: solid 1px red;
+    position:fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 13.88%;
+}
+.main-div .start-close-button img {
+    display: block;
+    width: 100%;
+}
 
 header.main-header {
     position: relative;
