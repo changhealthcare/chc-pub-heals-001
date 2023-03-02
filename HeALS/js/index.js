@@ -2,7 +2,11 @@
 $(function() {
 
     $('#start-close-button').on('click', function() {
-        history.back();
+        try {
+            window.close();
+        } catch (e) {
+            console.log(e);
+        }
     });
 
     $('#btn-slider-close').on('click', function() {
