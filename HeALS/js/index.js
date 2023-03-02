@@ -36,9 +36,6 @@ $(function() {
         },
         on: {
             slideChange: function () {
-                console.log('!!!!!!!!!!!!!!!!!!! - slideChange');
-                console.log(this.realIndex);
-
                 $('.btn-prev-page').removeClass('on');
                 $('.btn-next-page').addClass('on');
 
@@ -85,8 +82,6 @@ $(function() {
 
             },
             activeIndexChange: function () {
-                console.log('!!!!!!!!!!!!!!!!!!! - activeIndexChange');
-                console.log(this.realIndex);
             },
 
         }
