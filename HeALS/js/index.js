@@ -1,6 +1,10 @@
 
 $(function() {
 
+    $('#start-close-button').on('click', function() {
+        history.back();
+    });
+
     $('#btn-slider-close').on('click', function() {
         $('#div-slider').hide();
         $('#div-start').fadeIn();
