@@ -53,13 +53,6 @@ button {
 }
 
 .main-div .start-close-button {
-    border: solid 1px red;
-    position:fixed;
-    right: 5%;
-    bottom: 5%;
-}
-.main-div .start-close-button {
-    border: solid 1px red;
     position:fixed;
     right: 5%;
     bottom: 5%;
