@@ -40,8 +40,13 @@ $(function() {
         },
         on: {
             slideChange: function () {
+                $('#btn-slider-home').removeClass('on');
                 $('.btn-prev-page').removeClass('on');
                 $('.btn-next-page').addClass('on');
+
+                if (this.realIndex >= 3) {
+                    $('#btn-slider-home').addClass('on');
+                }
 
                 if (this.realIndex > 0) {
                     $('.btn-prev-page').addClass('on');

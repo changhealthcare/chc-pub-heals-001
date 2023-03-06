@@ -93,6 +93,19 @@ header.main-header button img {
     height: 110px;
 }
 
+header.main-header button img.off {
+    display: block;
+}
+header.main-header button img.on {
+    display: none;
+}
+header.main-header button.on img.off {
+    display: none;
+}
+header.main-header button.on img.on {
+    display: block;
+}
+
 @media (max-width: 500px) {
     header.main-header h1 {
         height: 90px;
