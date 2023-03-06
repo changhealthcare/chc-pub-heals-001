@@ -40,12 +40,12 @@ $(function() {
         },
         on: {
             slideChange: function () {
-                $('#btn-slider-home').removeClass('on');
+                $('#btn-slider-home').addClass('on');
                 $('.btn-prev-page').removeClass('on');
                 $('.btn-next-page').addClass('on');
 
                 if (this.realIndex >= 3) {
-                    $('#btn-slider-home').addClass('on');
+                    $('#btn-slider-home').removeClass('on');
                 }
 
                 if (this.realIndex > 0) {
